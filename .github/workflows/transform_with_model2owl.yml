@@ -27,7 +27,7 @@ jobs:
 
       - name: generate convention report and glossary
         run: |
-          AVAILABLE_IMPLEMENTATIONS=(demo_ontology demo_ontology_module)
+          AVAILABLE_IMPLEMENTATIONS=(SecEval.uml)
           for implementation in "${AVAILABLE_IMPLEMENTATIONS[@]}"
           do
             echo "-------------------${implementation}---------------------------------"
