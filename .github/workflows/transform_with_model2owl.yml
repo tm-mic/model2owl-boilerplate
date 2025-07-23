@@ -132,7 +132,7 @@ jobs:
 
       - name: get model2owl
         run: |
-          git clone https://github.com/OP-TED/model2owl.git
+          git clone https://github.com/tm-mic/model2owl-boilerplate
           pwd
 
       - name: get-saxon
