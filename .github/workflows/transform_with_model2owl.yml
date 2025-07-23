@@ -18,11 +18,8 @@ jobs:
 
       - name: get model2owl
         run: |
-          git clone https://github.com/OP-TED/model2owl.git
+          git clone https://github.com/tm-mic/model2owl
           pwd
-
-      - name: get-saxon
-        run: pwd && cd model2owl && make get-saxon
 
 
       - name: generate convention report and glossary
@@ -135,8 +132,7 @@ jobs:
           git clone https://github.com/OP-TED/model2owl.git
           pwd
 
-      - name: get-saxon
-        run: pwd && cd model2owl && make get-saxon
+
 
       - name: get-rdflib
         run: cd model2owl && make create-virtual-env && make get-rdflib
