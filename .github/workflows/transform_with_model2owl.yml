@@ -77,7 +77,7 @@ jobs:
           done
           ls merge-xmis
 
-          make merge-xmi FIRST_XMI_TO_BE_MERGED_FILE_PATH=merge-xmis/demo_ontology_CM.xml
+          make merge-xmi FIRST_XMI_TO_BE_MERGED_FILE_PATH=merge-xmis/SecEval_CM.xml
 
           echo "merged XMI file"
           ls output/combined-xmi
